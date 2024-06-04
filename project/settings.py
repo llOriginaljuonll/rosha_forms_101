@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     # Third parties
     'crispy_forms',
     'crispy_tailwind',
+    'embed_video',
 ]
 
 MIDDLEWARE = [
@@ -73,6 +74,10 @@ TEMPLATES = [
         },
     },
 ]
+# https://django-embed-video.readthedocs.io/en/latest/installation.html#:~:text=TEMPLATE_CONTEXT_PROCESSORS%20%3D%20(%0A%20%20%20%20...%0A%20%20%20%20%27django.template.context_processors.request%27%2C%0A)
+TEMPLATE_CONTEXT_PROCESSORS = (
+    'django.template.context_processors.request',
+)
 
 WSGI_APPLICATION = 'project.wsgi.application'
 

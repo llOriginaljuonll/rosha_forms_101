@@ -22,6 +22,7 @@ from django.conf import settings
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('apps.competition.urls')),
+    path('participant/', include('apps.participant.urls')),
 ]
 
 if settings.DEBUG:
