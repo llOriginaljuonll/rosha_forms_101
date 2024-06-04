@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/virtualenv,python,django
-# Edit at https://www.toptal.com/developers/gitignore?templates=virtualenv,python,django
+# Created by https://www.toptal.com/developers/gitignore/api/venv,django,python
+# Edit at https://www.toptal.com/developers/gitignore?templates=venv,django,python
 
 ### Django ###
 *.log
@@ -260,13 +260,10 @@ poetry.toml
 # ruff
 .ruff_cache/
 
-#.env
-.env/
-
 # LSP config files
 pyrightconfig.json
 
-### VirtualEnv ###
+### venv ###
 # Virtualenv
 # http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
 [Bb]in
@@ -278,4 +275,4 @@ pyrightconfig.json
 pyvenv.cfg
 pip-selfcheck.json
 
-# End of https://www.toptal.com/developers/gitignore/api/virtualenv,python,django
+# End of https://www.toptal.com/developers/gitignore/api/venv,django,python
